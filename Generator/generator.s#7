@@ -5781,6 +5781,48 @@ Source: http://www.elma.com/files/products/rotary_components/pdfs/rotary_switche
 <text x="-8.255" y="8.89" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.255" y="-11.43" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="320-916">
+<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
+distributor RS Components</description>
+<wire x1="-2.8702" y1="6.6802" x2="-3.5052" y2="6.0452" width="0.1524" layer="21"/>
+<wire x1="-2.8702" y1="6.6802" x2="2.8702" y2="6.6802" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="6.0452" x2="2.8702" y2="6.6802" width="0.1524" layer="21"/>
+<wire x1="2.8702" y1="-6.6802" x2="3.5052" y2="-6.0452" width="0.1524" layer="21"/>
+<wire x1="2.8702" y1="-6.6802" x2="-2.8702" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-6.0452" x2="-2.8702" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="2.286" x2="4.318" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="2.286" x2="-4.318" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-3.175" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-3.175" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="3.5052" y1="-6.0452" x2="3.5052" y2="-2.8702" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="6.0452" x2="3.5052" y2="2.8702" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="2.8702" x2="-3.5052" y2="6.0452" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-6.0452" x2="-3.5052" y2="-2.8194" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="51" curve="-270"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="51" curve="-233.130102"/>
+<wire x1="-1.6002" y1="1.27" x2="1.6002" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="-2.286" x2="-3.5052" y2="-2.8194" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="-2.8194" x2="0" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="-2.286" x2="3.5052" y2="-2.8702" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="-2.8702" x2="0" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="2.286" x2="3.5052" y2="2.8702" width="0.1524" layer="21"/>
+<wire x1="3.5052" y1="2.8702" x2="0" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="2.286" x2="-3.5052" y2="2.8702" width="0.1524" layer="21"/>
+<wire x1="-3.5052" y1="2.8702" x2="0" y2="5.08" width="0.1524" layer="51"/>
+<pad name="3" x="0" y="-4.0132" drill="2.0066" shape="long"/>
+<pad name="2" x="0" y="0" drill="2.0066" shape="long"/>
+<pad name="1" x="0" y="4.0132" drill="2.0066" shape="long"/>
+<text x="-2.54" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DS-106">
@@ -5845,6 +5887,29 @@ Source: http://www.elma.com/files/products/rotary_components/pdfs/rotary_switche
 <pin name="5" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="6" x="7.62" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="KS-U">
+<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ELMA-01-1X6" prefix="S">
@@ -5863,6 +5928,25 @@ Source: http://www.elma.com/files/products/rotary_components/pdfs/rotary_switche
 <connect gate="G$1" pin="5" pad="9"/>
 <connect gate="G$1" pin="6" pad="11"/>
 <connect gate="G$1" pin="S" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="320-916" prefix="S" uservalue="yes">
+<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
+distributor RS Components</description>
+<gates>
+<gate name="1" symbol="KS-U" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="320-916">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8229,6 +8313,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R4" library="pot" deviceset="TRIM_EU-" device="PTSPIN"/>
 <part name="R5" library="pot" deviceset="TRIM_EU-" device="PTSPIN"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="S1" library="switch" deviceset="320-916" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8247,12 +8332,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R2" gate="G$1" x="0" y="58.42" rot="R90"/>
 <instance part="GND1" gate="1" x="-17.78" y="50.8"/>
 <instance part="C1" gate="G$1" x="45.72" y="73.66" rot="R180"/>
-<instance part="GND2" gate="1" x="45.72" y="66.04"/>
+<instance part="GND2" gate="1" x="45.72" y="60.96"/>
 <instance part="R3" gate="G$1" x="114.3" y="48.26"/>
 <instance part="SUPPLY1" gate="G$1" x="124.46" y="66.04"/>
 <instance part="R4" gate="1" x="53.34" y="15.24" rot="R180"/>
-<instance part="R5" gate="1" x="116.84" y="86.36"/>
+<instance part="R5" gate="1" x="20.32" y="12.7" rot="R180"/>
 <instance part="GND3" gate="1" x="48.26" y="10.16"/>
+<instance part="S1" gate="1" x="35.56" y="10.16"/>
 </instances>
 <busses>
 </busses>
@@ -8384,7 +8470,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="45.72" y1="68.58" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="63.5" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="AM_IN"/>
+<wire x1="45.72" y1="66.04" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<junction x="45.72" y="66.04"/>
 </segment>
 <segment>
 <pinref part="R4" gate="1" pin="S"/>
@@ -8396,17 +8488,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="IC1" gate="G$1" pin="BYPASS"/>
 <wire x1="58.42" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="48.26" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="83.82" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="SQR" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SYNC"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="48.26" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+<junction x="99.06" y="48.26"/>
+<wire x1="99.06" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
+<label x="101.6" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8435,6 +8532,45 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="50.8" y1="22.86" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="S_ADJ@1"/>
 <wire x1="50.8" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="W_ADJ@1"/>
+<wire x1="58.42" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R5" gate="1" pin="A"/>
+<wire x1="20.32" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="W_ADJ@2"/>
+<wire x1="58.42" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="S"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="38.1" y1="5.08" x2="38.1" y2="0" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="0" x2="20.32" y2="0" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R5" gate="1" pin="E"/>
+<pinref part="R5" gate="1" pin="S"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="5.08" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
+<junction x="20.32" y="5.08"/>
+</segment>
+</net>
+<net name="SIN_TRI" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SI/TR"/>
+<wire x1="93.98" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
+<label x="101.6" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
